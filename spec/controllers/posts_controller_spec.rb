@@ -66,7 +66,7 @@ RSpec.describe PostsController, type: :controller do
      end
  
      it "renders the #edit view" do
-       get :edit, topic_id: my_topic.id, id: my_post.id
+       get :edit, params: { topic_id: my_topic.id, id: my_post.id }
        expect(response).to render_template :edit
      end
  
