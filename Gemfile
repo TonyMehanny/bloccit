@@ -40,6 +40,8 @@
  
  gem 'bootstrap-sass' , '~> 3.2.0.2'
  
+ # Used for encrypting passwords
+ gem 'bcrypt'
 
  
  group :development do
