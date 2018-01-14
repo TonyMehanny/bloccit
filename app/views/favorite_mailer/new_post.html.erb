@@ -1,0 +1,15 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+   </head>
+   <body>
+     <h1>You have favorited "<%= @post.title %>. You are now following the post and will be notified of all activity."</h1>
+     <small>
+       By: <%= @post.user.name %>
+     </small>
+     <p>
+       <%= @post.body %>
+     </p>
+   </body>
+ </html>
